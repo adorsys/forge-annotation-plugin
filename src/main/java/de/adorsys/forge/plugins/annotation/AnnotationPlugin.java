@@ -40,7 +40,6 @@ public class AnnotationPlugin implements Plugin {
 			out.print(e.getMessage());
 			e.printStackTrace();
 		}
-		out.println("FOOOOO: " + targets[0].getName());
 	}
 
 	@Command("remove-class-annotation")
@@ -57,7 +56,6 @@ public class AnnotationPlugin implements Plugin {
 			out.print(e.getMessage());
 			e.printStackTrace();
 		}
-		out.println("FOOOOO: " + targets[0].getName());
 	}
 
 	private void removeClassAnnotations(JavaSource source, String annotationClass) {
